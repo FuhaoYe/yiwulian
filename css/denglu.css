@@ -1,0 +1,172 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Microsoft Yahei", "微软雅黑", sans-serif;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+li{
+	list-style: none;
+	float: left;
+}
+.fl{
+	float: left;
+}
+
+.main{
+	width: 100%;
+}
+
+.header{
+	width: 100%;
+	height: 80px;
+	background: #000;
+}
+.header2{
+
+	width: 1200px;
+	height: 80px;
+	margin: 0 auto;
+}
+
+
+.header2_left img{
+	float: left;
+	height: 45px;
+	margin-top: 18px;
+	
+}
+.header2_left span{
+	/*clear: both;*/
+	width: 260px;
+	/*height: 45px;*/
+	line-height: 45px;
+	display: block;
+	font-size: 18px;
+	color: white;
+	font-family: "Microsoft Yahei", "微软雅黑", sans-serif;
+	margin-left: 15px;
+	margin-top: 18px;
+	float: left;
+	
+	
+}
+
+.header2_daohang{
+	float: left;
+	margin-left: 60px;
+	margin-top: 8px;
+}
+.header2_daohang a{
+	display: inline-block;
+    line-height: 67px;
+    font-size: 16px;
+    padding: 0 12px;
+    color: #ccc;
+}
+.header2_daohang .daohang_bd{
+	border-bottom: 5px solid #ffffff;
+	color: white;
+}
+
+
+.header2_right{
+	float: left;
+	margin-top: 30px;
+	margin-left: 60px;
+}
+
+.header2_right a{
+	font-size: 12px;
+}
+
+
+.yonghudenglukuang{
+	overflow: hidden;
+	width: 400px;
+	height: 350px;
+	/*background: goldenrod;*/
+	margin: 155px auto;
+	border: 1px solid #CCCCCC;
+	border-top: 3px solid rgb(52,152,219);
+}
+
+.yonghudenglukuang h1{
+	width: 125px;
+	color: #3498db;
+    font-family: "Microsoft YaHei", "微软雅黑";
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0 auto;
+    
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+ 
+.yonghudenglukuang .item{
+	margin: 0 auto;
+	width: 290px;
+	height: 30px;
+	/*background: hotpink;*/
+} 
+ 
+.yonghudenglukuang .item .bg{
+	float: left;
+	width: 30px;
+	height: 29px;
+	background: url(../img/user.png) no-repeat 0 0;
+	margin-left: -281px;
+	
+	
+}
+.yonghudenglukuang .item .bg2{
+	float: left;
+	width: 30px;
+	height: 29px;
+	background: url(../img/password.png) no-repeat 0 0;
+	margin-left: -281px;
+	
+	
+}
+.yonghudenglukuang .item input{
+	  border: 1px solid #CCC;
+	
+	float: left;
+	  width: 240px;
+	height: 28px;
+	padding-left: 40px;
+}
+
+.yonghudenglukuang .tijiao{
+	display: block;
+	width: 280px;
+	height: 32px;
+	background: rgb(52,152,219);
+	outline: none;
+	border: none;
+	margin-left: 55px;
+	font-size: 20px;
+	line-height: 32px;
+	color: white;
+	cursor: pointer;
+}
+.tijiao:hover{
+	background: rgb(144,177,56);
+}
+
+.fuwu{
+	width: 280px;
+	height: 30px;
+	/*background: honeydew;*/
+	margin-left: 55px;
+	margin-top: 15px;
+    font-size: 14px;
+}
+.fuwu a{
+	color: #3b70e1;
+}
+.fuwu .right{
+	float: right;
+}
